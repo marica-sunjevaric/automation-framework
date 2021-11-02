@@ -1,0 +1,2 @@
+com/dice/FirstTest.java
+ com.dice.FirstTest
