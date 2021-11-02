@@ -3,11 +3,13 @@
 <suite name="Failed suite [Gradle suite]" verbose="0">
   <test thread-count="5" name="Gradle test(failed)" verbose="0">
     <classes>
-      <class name="com.dice.FirstTest">
+      <class name="tests.TDBANK.LoginTDBANKPerformanceTest">
         <methods>
-          <include name="firstTestMethod"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.dice.FirstTest -->
+      </class> <!-- tests.TDBANK.LoginTDBANKPerformanceTest -->
     </classes>
   </test> <!-- Gradle test(failed) -->
 </suite> <!-- Failed suite [Gradle suite] -->

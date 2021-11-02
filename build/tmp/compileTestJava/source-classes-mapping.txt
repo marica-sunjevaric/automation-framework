@@ -1,2 +1,6 @@
-com/dice/FirstTest.java
- com.dice.FirstTest
+tests/TDBANK/JobManagerTDBANKPerformanceTest.java
+ tests.TDBANK.JobManagerTDBANKPerformanceTest
+tests/TDBANK/LoginTDBANKPerformanceTest.java
+ tests.TDBANK.LoginTDBANKPerformanceTest
+tests/TestBase.java
+ tests.TestBase
