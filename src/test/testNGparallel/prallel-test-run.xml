@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Independent test Suite">
+    <test name="Independent test" parallel="methods" thread-count="10" >
+        <classes>
+            <class name="tests.TDBANK.LoginTDBANKPerformanceTest"/>
+        </classes>
+    </test>
+</suite>
